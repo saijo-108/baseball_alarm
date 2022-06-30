@@ -1,24 +1,30 @@
-# README
+# BaseBallアラーム
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サービス概要
+プロ野球の試合が気になるけれど、フルタイムでずっと見る暇がない人に  
+チャンスやピンチなど自分があらかじめ設定した試合状況になったら通知をしてくれるサービスです
 
-Things you may want to cover:
+## メインのターゲット
+- テレビでプロ野球を観戦する人
+- 試合が気になって勉強や作業に集中できない人
 
-* Ruby version
+## ユーザーが抱える課題
+応援しているチームの大事な場面を見逃したくない、野球を見たいけど試合が長くて他にやらないといけないことがある　など
 
-* System dependencies
+## 解決方法
+自分がみたい場面になったら通知で教えてくれるサービスを提供する
 
-* Configuration
+## 実装予定の機能
+- ログインしているユーザー
+  - 通知する展開を設定できる
+  - 通知音を設定できる
 
-* Database creation
+## なぜこのサービスを作りたいのか？
+実際に勉強など課題をしなければならないけれど、プロ野球の試合展開が気になってしまい何度も試合展開が変わっていないかを定期的に確認してしまうため作業に集中できないことがあったので、「もしも自分が見たい場面で通知してくれるようなアプリがあったらいいな」という想いから開発することを決めた
 
-* Database initialization
+## スケジュール
+README~ER図作成：7/3 〆切  
+メイン機能実装：7/3~7/10  
+β版をリリース(MVP)：7/10 〆切  
+本番リリース：7/15 〆切
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
